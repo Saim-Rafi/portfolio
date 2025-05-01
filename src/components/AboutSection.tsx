@@ -74,10 +74,11 @@ const AboutSection = () => {
                 <FileText className="w-5 h-5 text-primary" /> Bio
               </h3>
               <p className="text-muted-foreground">
-                Software engineering student with a passion for creating
-                innovative solutions. Specializing in full-stack development, I
-                combine technical expertise with creative problem-solving to
-                build user-centric applications.
+                Fullstack Developer skilled in building scalable web
+                applications with modern technologies like Next.js, React.js,
+                Express.js, Node.js, and MongoDB. Passionate about clean code,
+                intuitive user experiences, and continuous learning to deliver
+                high-quality, end-to-end software solutions.
               </p>
             </motion.div>
 
@@ -96,15 +97,15 @@ const AboutSection = () => {
                       Education
                     </h3>
                     <div className="space-y-2">
-                      <p className="font-medium">BSc in Software Engineering</p>
+                      <p className="font-medium">B.Tech in Computer Science</p>
                       <p className="text-sm text-muted-foreground">
-                        SLIIT (Sri Lanka Institute of Information Technology)
+                        JSS Academy of Technical Education, Noida
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        2022 - Present
+                        2022 - 2026
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        Dean's List (2023)
+                        CGPA: 8.47
                       </p>
                     </div>
                   </CardContent>
@@ -119,6 +120,26 @@ const AboutSection = () => {
                 }}
               >
                 <Card className="h-full border-primary/10 bg-card/50 backdrop-blur-sm">
+                  <CardContent className="pt-6">
+                    <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+                      <GraduationCap className="w-5 h-5 text-primary" />{" "}
+                      Education
+                    </h3>
+                    <div className="space-y-2">
+                      <p className="font-medium">Intermediate</p>
+                      <p className="text-sm text-muted-foreground">
+                        Delhi Public School Ghaziabad Vasundhara
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        2021 - 2022
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        Percentage: 94.4%
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+                {/* <Card className="h-full border-primary/10 bg-card/50 backdrop-blur-sm">
                   <CardContent className="pt-6">
                     <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
                       <Briefcase className="w-5 h-5 text-primary" /> Experience
@@ -146,7 +167,7 @@ const AboutSection = () => {
                       </div>
                     </div>
                   </CardContent>
-                </Card>
+                </Card> */}
               </motion.div>
             </div>
           </motion.div>
@@ -166,14 +187,14 @@ const AboutSection = () => {
             >
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
-                  src="/imgs/me.png"
-                  alt="Aathif Zahir"
+                  src="/imgs/me.jpeg"
+                  alt="Saim Rafi"
                   loading="lazy"
                 />
-                <AvatarFallback>AZ</AvatarFallback>
+                <AvatarFallback>SR</AvatarFallback>
               </Avatar>
               <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                3.41 GPA
+                8.47 CGPA
               </div>
             </motion.div>
 
@@ -181,9 +202,9 @@ const AboutSection = () => {
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Aathif Zahir</h3>
+              <h3 className="text-2xl font-bold">MOHD SAIM RAFI</h3>
               <p className="text-muted-foreground">
-                Software Engineering Student
+                Aspiring Software Engineering
               </p>
             </motion.div>
 
@@ -192,13 +213,13 @@ const AboutSection = () => {
               className="flex flex-wrap gap-2 justify-center lg:justify-start"
             >
               <Badge variant="outline" className="bg-primary/10">
-                React
+                NextJs
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                Node
+                Cloudfare
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                UI/UX
+                Firebase
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
                 Full Stack
@@ -211,7 +232,7 @@ const AboutSection = () => {
               whileTap={{ scale: 0.98 }}
             >
               <Button className="gap-2" asChild onClick={handledownload}>
-                <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+                <a href={resumeUrl} download="mohd-saim-rafi_resume.pdf" target="_blank">
                   <Download className="w-4 h-4" />
                   Download Resume
                 </a>

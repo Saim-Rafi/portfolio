@@ -38,7 +38,7 @@ const Navbar = () => {
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
-    { name: "Achievements", href: "#achievements" },
+    // { name: "Achievements", href: "#achievements" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -52,10 +52,10 @@ const Navbar = () => {
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-14">
+        <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="/">
-              <span className="text-xl font-bold text-primary">AZ.</span>
+              <span className="text-3xl font-bold text-primary">MSR</span>
             </a>
           </div>
 
@@ -66,19 +66,19 @@ const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-lg font-medium hover:text-primary transition-colors"
                 >
                   {link.name}
                 </a>
               ))}
               <ThemeSwitcher />
               <Button
-                size="sm"
+                size="lg"
                 className="ml-4"
                 asChild
                 onClick={handledownload}
               >
-                <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+                <a href={resumeUrl} download="mohd-saim-rafi_resume.pdf" target="_blank">
                   Resume
                 </a>
               </Button>
@@ -142,7 +142,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button size="sm" className="ml-3 mt-2" asChild>
-              <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+              <a href={resumeUrl} download="mohd-saim-rafi_resume.pdf" target="_blank">
                 Resume
               </a>
             </Button>

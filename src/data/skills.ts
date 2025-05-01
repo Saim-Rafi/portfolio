@@ -1,5 +1,11 @@
-
-import { Code, Database, Layout, Terminal, Cpu, Palette } from "lucide-react";
+import {
+  Code,
+  Database,
+  Layout,
+  Terminal,
+  Cpu,
+  BriefcaseBusiness,
+} from "lucide-react";
 import { LucideIcon } from "lucide-react";
 
 export type SkillCategory = {
@@ -12,31 +18,53 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Programming Languages",
     icon: Terminal,
-    skills: ["JavaScript", "Java", "Python", "TypeScript", "HTML/CSS"],
+    skills: [
+      "C++",
+      "C",
+      "Python",
+      "SQL",
+      "TypeScript",
+      "Javascript",
+      "HTML/CSS",
+    ],
   },
   {
     name: "Frontend Development",
     icon: Layout,
-    skills: ["React", "React Native", "Next.js", "Tailwind CSS"],
+    skills: [
+      "Next.js",
+      "React",
+      "Redux",
+      "jQuery",
+      "ShadCn",
+      "Tailwind CSS",
+      "Bootstrap",
+    ],
   },
   {
     name: "Backend Development",
     icon: Code,
-    skills: ["Node.js", "Express.js", "Spring Boot", "REST APIs"],
+    skills: ["Node.js", "Express.js", "JWT", "Cloudfare", "REST APIs", "CORS"],
   },
   {
     name: "Databases",
     icon: Database,
-    skills: ["MongoDB", "MySQL", "Firebase", "PostgreSQL"],
+    skills: ["MongoDB", "MySQL", , "Firebase", "PostgreSQL"],
   },
   {
     name: "Tools & Technologies",
     icon: Cpu,
-    skills: ["Git", "Agile/Scrum"],
+    skills: ["Git", "Github", "Postman", "Vercel", "Render", "Netlify"],
   },
   {
-    name: "Design",
-    icon: Palette,
-    skills: ["Figma", "Adobe AI", "UI/UX Design", "Wireframing", "Prototyping"],
+    name: "Tools & Technologies",
+    icon: BriefcaseBusiness,
+    skills: [
+      "Data Structures",
+      "OOPS",
+      "Database Management System",
+      "Operating System",
+      "Computer Network",
+    ],
   },
 ];

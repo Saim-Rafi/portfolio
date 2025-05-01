@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone ,Twitter } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { Links } from "@/data/links";
 
@@ -28,7 +28,7 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     const formPayload = {
-      access_key: "6c14b370-ac51-45bc-b933-1a3ed381b3d1",
+      access_key: "4cd7d6bb-02fc-44de-a03e-c1f061aef0bb",
       ...formData,
     };
 
@@ -152,6 +152,15 @@ const ContactSection = () => {
                 >
                   <Mail size={20} />
                 </a>
+                
+                <a
+                  href={Links.x}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter"
+                  className="bg-muted p-3 rounded-full text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                ><Twitter size={20}/></a>
+
               </div>
             </div>
           </div>

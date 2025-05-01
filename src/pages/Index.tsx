@@ -7,7 +7,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
-import AchievementsSection from "@/components/AchievementsSection";
+// import AchievementsSection from "@/components/AchievementsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
@@ -18,7 +18,7 @@ const sections = [
   "about",
   "projects",
   "skills",
-  "achievements",
+  // "achievements",
   "contact",
 ];
 
@@ -63,7 +63,7 @@ const Index = () => {
         <AboutSection />
         <ProjectsSection />
         <SkillsSection />
-        <AchievementsSection />
+        {/* <AchievementsSection /> */}
         <ContactSection />
       </Scrollspy>
       <Footer />
