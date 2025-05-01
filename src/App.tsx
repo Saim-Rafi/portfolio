@@ -10,6 +10,7 @@ import { ThemeProvider } from "./components/ThemeProvider";
 import React from "react";
 import { Analytics } from "@vercel/analytics/react";
 
+
 // Create a new QueryClient instance
 const queryClient = new QueryClient();
 
