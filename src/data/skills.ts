@@ -39,6 +39,7 @@ export const skillCategories: SkillCategory[] = [
       "ShadCn",
       "Tailwind CSS",
       "Bootstrap",
+      "Ant Design"
     ],
   },
   {
@@ -54,10 +55,10 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Tools & Technologies",
     icon: Cpu,
-    skills: ["Git", "Github", "Postman", "Vercel", "Render", "Netlify"],
+    skills: ["Git", "Github", "Postman","Socket.io","Vercel", "Render", "Netlify",],
   },
   {
-    name: "Tools & Technologies",
+    name: "Concepts",
     icon: BriefcaseBusiness,
     skills: [
       "Data Structures",

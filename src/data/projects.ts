@@ -15,12 +15,12 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "AI Powered- Neura",
-    description: "Created an AI-enhanced Notion clone allowing multiple users to collaboratively edit and manage documents effortlessly.",
+    description: "Neura is a next-generation collaborative document platform — combining real-time editing, AI-assisted content creation, and translation into one seamless experience.",
     image: "/imgs/p4.png",
-    tags: ["NextJs", "Cloudfare", "Firebase", "LiveBlocks", "Clerk", "Yjs"],
+    tags: ["NextJs","Typescript","Cloudfare", "Firebase", "LiveBlocks","OpenAI", "Hono" ,"Clerk", "Yjs"],
     links: {
       github: "https://github.com/Saim-Rafi/Neura",
-      live: "",
+      live: "neura-delta.vercel.app",
     },
   },
   {
